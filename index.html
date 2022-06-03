@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MoM Game Generator by Jtynuu</title>
+</head>
+<body>
+  
+  <header>
+    <h2>MoM Game Generator</h2>
+  </header>
+  
+  <main>
+    <p>MoM Game Generator adalah website untuk menentukan Map, Master, Magic, Music dari game Master of Monsters (Sega Genesis) secara acak. Klik tombol dibawah ini untuk memulai!</p>
+    
+    <section>
+      <p>*Ini adalah fitur opsional dimana anda akan mendapatkan angka acak ketika mengklik tombol dibawah ini. Angka acak tersebut digunakan untuk seberapa kali anda mengklik tombol pada bagian generator.</p>
+      <section>
+      <span id="kali"></span>
+      </section>
+      <button id="kali" onclick="kali()">Putar!</button>
+    </section>
+    
+    <section>
+      <p>*Klik tombol dibawah ini untuk menggenerate atribut. 1× Generate untuk 1× permainan!</p>
+      <span id="map"></span>
+      
+      <section>
+        <h4>Team Blue (Player 1)</h4>
+        <span class="master"></span><br />
+        <span class="magic"></span><br />
+        <span class="bgm"></span>
+      </section>
+      
+      <section>
+        <h4>Team Red (Player 2/Comp)</h4>
+        <span class="master"></span><br />
+        <span class="magic"></span><br />
+        <span class="bgm"></span>
+      </section>
+      
+      <section>
+        <h4>Team Green (Player 3/Comp)</h4>
+        <span class="master"></span><br />
+        <span class="magic"></span><br />
+        <span class="bgm"></span>
+      </section>
+      
+      <section>
+        <h4>Team Yellow (Player 4/Comp)</h4>
+        <span class="master"></span><br />
+        <span class="magic"></span><br />
+        <span class="bgm"></span>
+      </section>
+      <button id="generator" onclick="generator()">Generate!</button>
+    </section>
+  </main>
+  <hr />
+  
+  <footer>
+    <p>MoM Game Generator，Versi 1.0.0</p>
+    <p>&copy; 2022 Jtynuu</p>
+  </footer>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
